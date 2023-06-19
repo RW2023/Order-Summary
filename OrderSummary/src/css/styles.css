@@ -91,3 +91,26 @@ h2:first-of-type {
     margin-bottom: 1em;
     margin-top: 5em;
 }
+
+.order{
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: first baseline;
+align-content: center;
+background-color: #F0FFF5;
+border-radius: 5px;
+margin: 40px 0 20px;
+}
+
+.order img{
+    margin: 0;
+    padding: 0;
+}
+
+.order_text h4, p{
+    display: inline-block;
+    margin: 0;
+    padding: 0.25em;
+}
